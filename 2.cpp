@@ -1,20 +1,17 @@
 #include <iostream>
 
 using namespace std;
+
 int main() {
-    int number; // Объявляем переменную для хранения числа
-    cin >> number; // Считываем число с клавиатуры
+    setlocale(LC_ALL, "Russian");
 
-    // Ваш код:
-if(number==10)
+    int N;
+    cin >> N;
+ for (int i = N; i >= 1; i--) 
 {
-cout << "Число равно 10";
-}
-else
-{
-    cout <<"Число не равно 10";
+        cout << i << " ";
 }
 
 
-    return 0; // Завершаем программу
+    return 0;
 }
