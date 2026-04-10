@@ -3,15 +3,15 @@
 using namespace std;
 
 int main() {
-    // Настройка корректного отображения русского языка в консоли
     setlocale(LC_ALL, "Russian");
 
-    int number; // Объявляем переменную для хранения числа
-    cin >> number; // Считываем число с клавиатуры
-
-    // Ваш код:
-if(number>0)
-cout << "Положительное";
+    int N;
+    cin >> N;
+for (int i=1; i<=N; i++) 
+    
+{
+    cout << i << " ";
+}
 
     return 0;
 }
