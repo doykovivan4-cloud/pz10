@@ -3,22 +3,17 @@
 using namespace std;
 
 int main() {
-    int a, b; // Объявляем две переменные
-    cin >> a >> b; // Считываем два числа сразу
+    setlocale(LC_ALL, "Russian");
 
-    // Ваш код:
-if(a>b)
+    int N;
+    cin >> N;
+for(int i=1; i<=N; i++)
+if(i%2==0)
 {
-    cout << "Большее число: " << a;
+cout << i << " ";
 }
-    else if (a<b)
-    {
-        cout << "Большее число: " << b;
-}
-else
-{
-    cout << "Числа равны";
-}
+
+
 
     return 0;
 }
