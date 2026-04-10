@@ -3,19 +3,17 @@
 using namespace std;
 
 int main() {
-    int a;
-    cin >> a;
+    setlocale(LC_ALL, "Russian");
 
-    // Ваш код:
-if(a>=1 && a<=10)
+    int N;
+    cin >> N;
+    int c = 0;
+for(int i=1; i<=N; i++)
+if(i%2==0)
+c++;
 {
-    cout << "Число принадлежит диапазону";
+cout << c << " ";
 }
-else 
-{
-    cout << "Число не принадлежит диапазону";
-}
-
 
 
     return 0;
