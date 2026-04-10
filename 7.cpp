@@ -1,15 +1,16 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    int x;
-    cin >> x;
-    
-    if (x > 0 && x % 2 == 0 && x < 100) {
-        cout << "Подходит";
-    } else {
-        cout << "Не подходит";
+    setlocale(LC_ALL, "Russian");
+
+    int N;
+    cin >> N;
+for (int i = 1; i <= 10; i++) {
+        cout << N << " * " << i << " = " << N * i << endl;
     }
-    
+
+
     return 0;
 }
